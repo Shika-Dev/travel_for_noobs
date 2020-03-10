@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092762120280",
+    "firebase_url": "https://travelfornoobs-8f1f5.firebaseio.com",
+    "project_id": "travelfornoobs-8f1f5",
+    "storage_bucket": "travelfornoobs-8f1f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092762120280:android:5ace93325c7c114da55a2d",
+        "android_client_info": {
+          "package_name": "com.rama.travel_for_noobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092762120280-8o6cto2gtsk1mu2a4ms2ie885hknulge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAALlxA0MGBJhZ2Jz4FQ4E5-OO5VhDZt9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092762120280-8o6cto2gtsk1mu2a4ms2ie885hknulge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
