@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:travel_for_noobs/widgets/destination_carousel.dart';
+import 'package:travel_for_noobs/widgets/stories_carousel.dart';
 
 class searchtab extends StatefulWidget {
 
@@ -74,7 +75,7 @@ class _HomeScreenState extends State<searchtab> {
             ),
             SizedBox(height: 20.0),
             DestinationCarousel(),
-            SizedBox(height: 20.0),
+            stories_carousel(),
           ],
         ),
       ),

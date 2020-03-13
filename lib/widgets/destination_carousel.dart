@@ -4,6 +4,7 @@ import 'package:travel_for_noobs/screen/allDestination_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:travel_for_noobs/widgets/favoriteIcon.dart';
 import 'package:travel_for_noobs/screen/destination_screen.dart';
+import 'package:travel_for_noobs/models/customIcons.dart';
 
 class DestinationCarousel extends StatelessWidget {
   @override
@@ -18,9 +19,10 @@ class DestinationCarousel extends StatelessWidget {
               Text(
                 'Top Destinations',
                 style: TextStyle(
-                  fontSize: 22.0,
+                  fontSize: 25.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1.5,
+                  fontFamily: "Calibre-Semibold",
                 ),
               ),
               GestureDetector(
@@ -30,7 +32,7 @@ class DestinationCarousel extends StatelessWidget {
                     builder: (_) => AllDestination(),
                   ),
                 ),
-                child: Text(
+                child: /*Text(
                   'See All',
                   style: TextStyle(
                     color: Theme.of(context).primaryColor,
@@ -38,7 +40,8 @@ class DestinationCarousel extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                     letterSpacing: 1.0,
                   ),
-                ),
+                ),*/
+                IconButton(icon: Icon(CustomIcons.option, size: 10, color: Colors.blueAccent,))
               ),
             ],
           ),
@@ -56,7 +59,7 @@ class DestinationCarousel extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (_) => DestinationScreen(
-                          //destination: destination,
+                          destination: destination,
                         ),
                       ),
                     ),
