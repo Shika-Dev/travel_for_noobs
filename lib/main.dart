@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:travel_for_noobs/screen/welcomePage.dart';
 import 'package:travel_for_noobs/tabs/searchtab.dart';
 import 'package:travel_for_noobs/tabs/foodtab.dart';
+import 'package:travel_for_noobs/tabs/stories.dart';
 import 'package:flutter/services.dart';
 
 void main() => runApp(MaterialApp(
@@ -22,7 +24,7 @@ class TabsState extends State<TabsApp>
   @override
   void initState() {
     super.initState();
-    tabController = TabController(length: 2, vsync: this);
+    tabController = TabController(length: 3, vsync: this);
   }
 
   @override
@@ -53,6 +55,12 @@ class TabsState extends State<TabsApp>
             size: 30.0,
           ),
         ),
+        Tab(
+          icon: Icon(
+            Icons.book,
+            size: 30.0,
+          ),
+        ),
         /*Tab(
           icon: CircleAvatar(
             radius: 15.0,
@@ -76,7 +84,7 @@ class TabsState extends State<TabsApp>
     ]);
     return Scaffold(
       body: getTabBarView(<Widget>[
-        searchtab(), foodtab(),
+        searchtab(), foodtab(), storiestab(),
       ]),
       bottomNavigationBar: getTabBar(),
     );

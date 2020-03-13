@@ -52,6 +52,10 @@ flutter:
     - assets/plate4.png
     - assets/plate5.png
     - assets/plate6.png
+    - assets/image_01.png
+    - assets/image_02.jpg
+    - assets/image_03.jpg
+    - assets/image_04.jpg
   #  - images/a_dot_ham.jpeg
 
 
@@ -66,6 +70,22 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: SF-Pro-Text-Regular
+      fonts:
+        - asset: assets/SF-Pro-Text-Regular.otf
+
+    - family: SF-Pro-Text-Bold
+      fonts:
+        - asset: assets/SF-Pro-Text-Bold.otf
+
+    - family: Calibre-Semibold
+      fonts:
+        - asset: assets/Calibre Semibold.otf
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets/custom_icons.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
